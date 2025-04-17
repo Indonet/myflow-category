@@ -1,0 +1,48 @@
+ERROR - 2025-02-19 16:18:58 --> JWT Verification Failed: Signature verification failed
+CRITICAL - 2025-02-19 16:20:05 --> Error: Call to a member function headers() on null
+[Method: PUT, Route: api/categories/category/21]
+in SYSTEMPATH/RESTful/ResourceController.php on line 127.
+ 1 APPPATH/Controllers/Category.php(19): CodeIgniter\RESTful\ResourceController->verifyHeader()
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Category->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-19 16:20:31 --> Error: Call to a member function headers() on null
+[Method: PUT, Route: api/categories/category/21]
+in SYSTEMPATH/RESTful/ResourceController.php on line 127.
+ 1 APPPATH/Controllers/Category.php(19): CodeIgniter\RESTful\ResourceController->verifyHeader()
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Category->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-02-19 16:20:56 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-19 16:25:07 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-19 16:25:39 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-19 16:25:51 --> JWT Verification Failed: Signature verification failed
+CRITICAL - 2025-02-19 16:25:51 --> Error: Cannot use object of type CodeIgniter\HTTP\Response as array
+[Method: POST, Route: api/categories/category]
+in APPPATH/Controllers/Category.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-02-19 16:26:37 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-19 16:27:10 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-19 16:28:18 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-19 16:29:04 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-19 16:29:53 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-19 16:30:14 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-19 16:30:30 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-19 16:30:54 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-19 16:35:03 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-19 16:36:21 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-19 16:36:31 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-19 16:37:19 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-19 16:37:39 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-19 16:37:57 --> JWT Verification Failed: Signature verification failed

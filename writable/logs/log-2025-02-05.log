@@ -1,0 +1,251 @@
+ERROR - 2025-02-05 03:46:47 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-05 03:46:54 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-05 03:48:23 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-05 03:48:34 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-05 03:49:11 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-05 03:54:00 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-05 03:54:23 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-05 03:54:40 --> JWT Verification Failed: Signature verification failed
+ERROR - 2025-02-05 03:56:02 --> JWT Verification Failed: Signature verification failed
+CRITICAL - 2025-02-05 07:29:04 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: categories/category]
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 537.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 SYSTEMPATH/HTTP/IncomingRequest.php(557): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/HTTP/IncomingRequest.php(505): CodeIgniter\HTTP\IncomingRequest->getJsonVar()
+ 4 APPPATH/Controllers/Category.php(33): CodeIgniter\HTTP\IncomingRequest->getVar()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 07:31:23 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: categories/category]
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 537.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 SYSTEMPATH/HTTP/IncomingRequest.php(557): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/HTTP/IncomingRequest.php(505): CodeIgniter\HTTP\IncomingRequest->getJsonVar()
+ 4 APPPATH/Controllers/Category.php(33): CodeIgniter\HTTP\IncomingRequest->getVar()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 07:31:41 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: categories/category]
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 537.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 SYSTEMPATH/HTTP/IncomingRequest.php(557): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/HTTP/IncomingRequest.php(505): CodeIgniter\HTTP\IncomingRequest->getJsonVar()
+ 4 APPPATH/Controllers/Category.php(33): CodeIgniter\HTTP\IncomingRequest->getVar()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 07:31:58 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: categories/category]
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 537.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 SYSTEMPATH/HTTP/IncomingRequest.php(557): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/HTTP/IncomingRequest.php(505): CodeIgniter\HTTP\IncomingRequest->getJsonVar()
+ 4 APPPATH/Controllers/Category.php(33): CodeIgniter\HTTP\IncomingRequest->getVar()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 07:32:01 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: categories/category]
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 537.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 SYSTEMPATH/HTTP/IncomingRequest.php(557): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/HTTP/IncomingRequest.php(505): CodeIgniter\HTTP\IncomingRequest->getJsonVar()
+ 4 APPPATH/Controllers/Category.php(33): CodeIgniter\HTTP\IncomingRequest->getVar()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 07:32:23 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: categories/category]
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 537.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 SYSTEMPATH/HTTP/IncomingRequest.php(557): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/HTTP/IncomingRequest.php(505): CodeIgniter\HTTP\IncomingRequest->getJsonVar()
+ 4 APPPATH/Controllers/Category.php(33): CodeIgniter\HTTP\IncomingRequest->getVar()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 07:33:49 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: categories/category]
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 537.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 SYSTEMPATH/HTTP/IncomingRequest.php(557): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/HTTP/IncomingRequest.php(505): CodeIgniter\HTTP\IncomingRequest->getJsonVar()
+ 4 APPPATH/Controllers/Category.php(33): CodeIgniter\HTTP\IncomingRequest->getVar()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 07:34:11 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: categories/category]
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 537.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 SYSTEMPATH/HTTP/IncomingRequest.php(557): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/HTTP/IncomingRequest.php(505): CodeIgniter\HTTP\IncomingRequest->getJsonVar()
+ 4 APPPATH/Controllers/Category.php(33): CodeIgniter\HTTP\IncomingRequest->getVar()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 07:34:14 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: categories/category]
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 537.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 SYSTEMPATH/HTTP/IncomingRequest.php(557): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/HTTP/IncomingRequest.php(505): CodeIgniter\HTTP\IncomingRequest->getJsonVar()
+ 4 APPPATH/Controllers/Category.php(33): CodeIgniter\HTTP\IncomingRequest->getVar()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 07:34:29 --> Error: Object of class App\Controllers\Category could not be converted to string
+[Method: POST, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 07:35:37 --> Error: Object of class App\Controllers\Category could not be converted to string
+[Method: POST, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 07:35:44 --> Error: Object of class App\Controllers\Category could not be converted to string
+[Method: POST, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 07:35:47 --> Error: Object of class App\Controllers\Category could not be converted to string
+[Method: POST, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 07:36:51 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: categories/category]
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 537.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 SYSTEMPATH/HTTP/IncomingRequest.php(557): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/HTTP/IncomingRequest.php(505): CodeIgniter\HTTP\IncomingRequest->getJsonVar()
+ 4 APPPATH/Controllers/Category.php(32): CodeIgniter\HTTP\IncomingRequest->getVar()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 07:37:31 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: categories/category]
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 537.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 SYSTEMPATH/HTTP/IncomingRequest.php(557): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/HTTP/IncomingRequest.php(505): CodeIgniter\HTTP\IncomingRequest->getJsonVar()
+ 4 APPPATH/Controllers/Category.php(32): CodeIgniter\HTTP\IncomingRequest->getVar()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-02-05 09:37:55 --> mysqli_sql_exception: Unknown column 'a.type_amount' in 'field list' in /var/www/myflow/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /var/www/myflow/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /var/www/myflow/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/myflow/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/myflow/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/myflow/app/Models/CriteriaMappingModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/myflow/app/Controllers/Criteria_mapping.php(45): App\Models\CriteriaMappingModel->getCriteriaMapping()
+#6 /var/www/myflow/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\Criteria_mapping->get_criteria_mapping()
+#7 /var/www/myflow/vendor/codeigniter4/framework/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/myflow/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/myflow/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 /var/www/myflow/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /var/www/myflow/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2025-02-05 09:37:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.type_amount' in 'field list'
+[Method: POST, Route: api/categories/criteria_mapping]
+in SYSTEMPATH/Database/BaseConnection.php on line 692.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/CriteriaMappingModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Criteria_mapping.php(45): App\Models\CriteriaMappingModel->getCriteriaMapping()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Criteria_mapping->get_criteria_mapping()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 09:37:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'a.type_amount' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/CriteriaMappingModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Criteria_mapping.php(45): App\Models\CriteriaMappingModel->getCriteriaMapping()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Criteria_mapping->get_criteria_mapping()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 09:37:55 --> [Caused by] mysqli_sql_exception: Unknown column 'a.type_amount' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/CriteriaMappingModel.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Criteria_mapping.php(45): App\Models\CriteriaMappingModel->getCriteriaMapping()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Criteria_mapping->get_criteria_mapping()
+ 8 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-05 10:36:08 --> Error: Undefined constant "App\Controllers\Y"
+[Method: POST, Route: api/categories/category]
+in APPPATH/Controllers/Category.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->get_category()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

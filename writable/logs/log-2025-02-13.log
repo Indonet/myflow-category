@@ -1,0 +1,26 @@
+CRITICAL - 2025-02-13 05:10:18 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: api/categories/criteria_mapping]
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 537.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 SYSTEMPATH/HTTP/IncomingRequest.php(557): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/HTTP/IncomingRequest.php(505): CodeIgniter\HTTP\IncomingRequest->getJsonVar()
+ 4 APPPATH/Controllers/Criteria_mapping.php(33): CodeIgniter\HTTP\IncomingRequest->getVar()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Criteria_mapping->get_criteria_mapping()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-13 05:11:12 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: api/categories/criteria_mapping]
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 537.
+ 1 SYSTEMPATH/HTTP/IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON()
+ 2 SYSTEMPATH/HTTP/IncomingRequest.php(557): CodeIgniter\HTTP\IncomingRequest->getJSON()
+ 3 SYSTEMPATH/HTTP/IncomingRequest.php(505): CodeIgniter\HTTP\IncomingRequest->getJsonVar()
+ 4 APPPATH/Controllers/Criteria_mapping.php(33): CodeIgniter\HTTP\IncomingRequest->getVar()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Criteria_mapping->get_criteria_mapping()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

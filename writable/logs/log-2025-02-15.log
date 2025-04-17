@@ -1,0 +1,82 @@
+CRITICAL - 2025-02-15 09:44:15 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type ?int, array given, called in /var/www/myflow/app/Controllers/Category.php on line 127
+[Method: POST, Route: api/categories/category/create]
+in SYSTEMPATH/BaseModel.php on line 653.
+ 1 APPPATH/Controllers/Category.php(127): CodeIgniter\BaseModel->findAll()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->create()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-15 09:52:41 --> Error: Class "App\Controllers\App\Models\CategoryModel" not found
+[Method: POST, Route: api/categories/sub_category/create]
+in APPPATH/Controllers/Sub_category.php on line 149.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Sub_category->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-15 09:52:56 --> Error: Class "App\Controllers\App\Models\CategoryModel" not found
+[Method: POST, Route: api/categories/sub_category/create]
+in APPPATH/Controllers/Sub_category.php on line 149.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Sub_category->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-15 09:53:46 --> Error: Class "App\Controllers\App\Models\CategoryModel" not found
+[Method: POST, Route: api/categories/sub_category/create]
+in APPPATH/Controllers/Sub_category.php on line 149.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Sub_category->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-15 09:56:11 --> Error: Class "App\Controllers\App\Models\CategoryModel" not found
+[Method: POST, Route: api/categories/sub_category/create]
+in APPPATH/Controllers/Sub_category.php on line 149.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Sub_category->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-15 10:00:14 --> Error: Class "App\Controllers\App\Models\CategoryModel" not found
+[Method: POST, Route: api/categories/sub_category/create]
+in APPPATH/Controllers/Sub_category.php on line 149.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Sub_category->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-15 10:00:23 --> Error: Class "App\Controllers\App\Models\CategoryModel" not found
+[Method: POST, Route: api/categories/sub_category/create]
+in APPPATH/Controllers/Sub_category.php on line 149.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Sub_category->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-15 10:00:41 --> Error: Class "App\Controllers\App\Models\CategoryModel" not found
+[Method: POST, Route: api/categories/sub_category/create]
+in APPPATH/Controllers/Sub_category.php on line 149.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Sub_category->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-15 10:00:52 --> Error: Class "App\Controllers\App\Models\CategoryModel" not found
+[Method: POST, Route: api/categories/sub_category/create]
+in APPPATH/Controllers/Sub_category.php on line 149.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Sub_category->create()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

@@ -1,0 +1,20 @@
+CRITICAL - 2025-02-10 07:33:50 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::getLastQuery()
+[Method: POST, Route: api/categories/criteria_mapping]
+in APPPATH/Models/CriteriaMappingModel.php on line 36.
+ 1 APPPATH/Controllers/Criteria_mapping.php(53): App\Models\CriteriaMappingModel->getCriteriaMapping()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Criteria_mapping->get_criteria_mapping()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-10 07:34:10 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::getLas()
+[Method: POST, Route: api/categories/criteria_mapping]
+in APPPATH/Models/CriteriaMappingModel.php on line 35.
+ 1 APPPATH/Controllers/Criteria_mapping.php(53): App\Models\CriteriaMappingModel->getCriteriaMapping()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Criteria_mapping->get_criteria_mapping()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

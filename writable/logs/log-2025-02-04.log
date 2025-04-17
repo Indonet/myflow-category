@@ -1,0 +1,480 @@
+CRITICAL - 2025-02-04 05:56:59 --> ErrorException: Undefined variable $request
+[Method: GET, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 19.
+ 1 APPPATH/Controllers/Category.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 07:55:31 --> Error: Call to undefined function App\Controllers\verify_jwt()
+[Method: GET, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 28.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 07:55:52 --> Error: Call to undefined function App\Controllers\verify_jwt()
+[Method: GET, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 29.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 08:00:37 --> Error: Call to undefined function App\Controllers\verify_jwt()
+[Method: GET, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 29.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 08:02:27 --> Error: Call to undefined method App\Controllers\Category::verify_jwt()
+[Method: GET, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 29.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 08:02:43 --> Error: Call to undefined function App\Controllers\verify_jwt()
+[Method: GET, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 29.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-02-04 08:04:12 --> JWT Verification Failed: Wrong number of segments
+ERROR - 2025-02-04 08:06:18 --> JWT Verification Failed: Wrong number of segments
+ERROR - 2025-02-04 08:08:46 --> JWT Verification Failed: Wrong number of segments
+ERROR - 2025-02-04 08:18:07 --> JWT Verification Failed: Wrong number of segments
+ERROR - 2025-02-04 08:18:43 --> JWT Verification Failed: Wrong number of segments
+CRITICAL - 2025-02-04 08:30:00 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 08:30:41 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 08:30:43 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 08:34:08 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 08:34:10 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 08:36:30 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 08:36:31 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 08:40:20 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 08:40:27 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 09:35:50 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-02-04 09:39:43 --> JWT Verification Failed: Expired token
+ERROR - 2025-02-04 09:40:07 --> JWT Verification Failed: Expired token
+ERROR - 2025-02-04 09:40:31 --> JWT Verification Failed: Expired token
+ERROR - 2025-02-04 09:42:56 --> JWT Verification Failed: Expired token
+CRITICAL - 2025-02-04 09:46:02 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 09:46:46 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 09:46:47 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 09:46:54 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 09:46:55 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 09:47:51 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 09:47:58 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 09:48:11 --> TypeError: verify_jwt(): Argument #1 ($token) must be of type string, null given, called in /var/www/myflow/app/Controllers/Category.php on line 27
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 29.
+ 1 APPPATH/Controllers/Category.php(27): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-02-04 09:48:25 --> JWT Verification Failed: Expired token
+CRITICAL - 2025-02-04 09:52:26 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$get_headers
+[Method: GET, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 25.
+ 1 APPPATH/Controllers/Category.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 09:53:04 --> Error: Call to undefined method CodeIgniter\HTTP\IncomingRequest::getallheaders()
+[Method: GET, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 09:53:09 --> ErrorException: Undefined property: CodeIgniter\HTTP\IncomingRequest::$getallheaders
+[Method: GET, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 25.
+ 1 APPPATH/Controllers/Category.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 09:55:28 --> ErrorException: Undefined property: App\Controllers\Category::$getallheaders
+[Method: GET, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 25.
+ 1 APPPATH/Controllers/Category.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-02-04 09:55:44 --> JWT Verification Failed: Expired token
+CRITICAL - 2025-02-04 10:02:18 --> ErrorException: Undefined array key "x-service-token"
+[Method: GET, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 26.
+ 1 APPPATH/Controllers/Category.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 10:03:08 --> ErrorException: Undefined array key "x-service-token"
+[Method: GET, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 27.
+ 1 APPPATH/Controllers/Category.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-02-04 10:05:57 --> JWT Verification Failed: Syntax error, malformed JSON
+ERROR - 2025-02-04 10:08:53 --> JWT Verification Failed: Syntax error, malformed JSON
+ERROR - 2025-02-04 10:08:55 --> JWT Verification Failed: Syntax error, malformed JSON
+ERROR - 2025-02-04 10:09:18 --> JWT Verification Failed: Syntax error, malformed JSON
+ERROR - 2025-02-04 10:10:19 --> JWT Verification Failed: Wrong number of segments
+ERROR - 2025-02-04 10:15:59 --> JWT Verification Failed: Syntax error, malformed JSON
+CRITICAL - 2025-02-04 10:25:46 --> Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) could not be passed by reference
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 35.
+ 1 APPPATH/Controllers/Category.php(34): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-02-04 10:27:01 --> JWT Verification Failed: Syntax error, malformed JSON
+CRITICAL - 2025-02-04 10:27:57 --> Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) could not be passed by reference
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 35.
+ 1 APPPATH/Controllers/Category.php(34): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 10:29:06 --> Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) could not be passed by reference
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 35.
+ 1 APPPATH/Controllers/Category.php(34): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 10:30:39 --> Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) could not be passed by reference
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 35.
+ 1 APPPATH/Controllers/Category.php(34): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 10:30:47 --> Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) could not be passed by reference
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 35.
+ 1 APPPATH/Controllers/Category.php(34): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 10:30:49 --> Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) could not be passed by reference
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 35.
+ 1 APPPATH/Controllers/Category.php(34): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 10:31:05 --> Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) could not be passed by reference
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 35.
+ 1 APPPATH/Controllers/Category.php(34): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 10:31:10 --> Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) could not be passed by reference
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 35.
+ 1 APPPATH/Controllers/Category.php(34): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 10:31:12 --> Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) could not be passed by reference
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 35.
+ 1 APPPATH/Controllers/Category.php(34): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 10:31:21 --> Error: Firebase\JWT\JWT::decode(): Argument #3 ($headers) could not be passed by reference
+[Method: GET, Route: categories/category]
+in APPPATH/Helpers/Jwt_helper.php on line 35.
+ 1 APPPATH/Controllers/Category.php(34): verify_jwt()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 10:32:04 --> TypeError: Firebase\JWT\JWT::decode(): Argument #3 ($headers) must be of type ?stdClass, string given, called in /var/www/myflow/app/Helpers/Jwt_helper.php on line 35
+[Method: GET, Route: categories/category]
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 96.
+ 1 APPPATH/Helpers/Jwt_helper.php(35): Firebase\JWT\JWT::decode()
+ 2 APPPATH/Controllers/Category.php(34): verify_jwt()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 10:32:06 --> TypeError: Firebase\JWT\JWT::decode(): Argument #3 ($headers) must be of type ?stdClass, string given, called in /var/www/myflow/app/Helpers/Jwt_helper.php on line 35
+[Method: GET, Route: categories/category]
+in VENDORPATH/firebase/php-jwt/src/JWT.php on line 96.
+ 1 APPPATH/Helpers/Jwt_helper.php(35): Firebase\JWT\JWT::decode()
+ 2 APPPATH/Controllers/Category.php(34): verify_jwt()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-02-04 10:32:30 --> JWT Verification Failed: Syntax error, malformed JSON
+ERROR - 2025-02-04 10:32:35 --> JWT Verification Failed: Syntax error, malformed JSON
+ERROR - 2025-02-04 10:33:02 --> JWT Verification Failed: Syntax error, malformed JSON
+ERROR - 2025-02-04 10:33:03 --> JWT Verification Failed: Syntax error, malformed JSON
+ERROR - 2025-02-04 10:34:02 --> JWT Verification Failed: Syntax error, malformed JSON
+ERROR - 2025-02-04 10:34:57 --> JWT Verification Failed: Syntax error, malformed JSON
+ERROR - 2025-02-04 10:35:42 --> JWT Verification Failed: Syntax error, malformed JSON
+ERROR - 2025-02-04 10:35:47 --> JWT Verification Failed: Syntax error, malformed JSON
+CRITICAL - 2025-02-04 10:37:01 --> Error: Cannot access protected property CodeIgniter\HTTP\Header::$value
+[Method: GET, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 10:37:48 --> ErrorException: Undefined property: CodeIgniter\HTTP\Header::$X
+[Method: GET, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 25.
+ 1 APPPATH/Controllers/Category.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 10:37:59 --> Error: Undefined constant "App\Controllers\X"
+[Method: GET, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-04 10:41:55 --> ErrorException: Undefined array key "X-Service_toge"
+[Method: GET, Route: categories/category]
+in APPPATH/Controllers/Category.php on line 25.
+ 1 APPPATH/Controllers/Category.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Category->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
